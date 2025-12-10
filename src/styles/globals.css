@@ -208,14 +208,6 @@
   }
 }
 
-@keyframes marquee-slow {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-.animate-marquee-slow {
-  animation: marquee-slow 30s linear infinite;
-}
-
 .leistungen-track {
   display: flex;
   width: max-content;
@@ -268,24 +260,4 @@
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(200, 165, 110, 0.25);
   transition: all 0.35s ease;
-}
-
-/* ==== COPY PROTECTION (LIGHT) ==== */
-
-/* Vsebuje celo stran – onemogoči označevanje besedila */
-.no-copy-wrapper {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Dovoli normalno označevanje v obrazcih (kontakt, itd.) */
-.no-copy-wrapper input,
-.no-copy-wrapper textarea,
-.no-copy-wrapper select {
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
-  user-select: text;
 }
