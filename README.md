@@ -17,6 +17,7 @@
     <li><strong>UI language:</strong> German (DE)</li>
     <li><strong>Target:</strong> local customers in Salzburg &amp; Salzburg Umgebung</li>
     <li><strong>Goal:</strong> Turn visitors into high-quality leads via phone, WhatsApp and contact form</li>
+    <li><strong>Link:</strong> https://ad-fliesen-salzburg.netlify.app/</li>
   </ul>
 
   <hr />
